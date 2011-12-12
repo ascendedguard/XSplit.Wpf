@@ -1,0 +1,4 @@
+<configuration id="YOUR-UNIQUE-ID" name="Application Name to Show in XSplit">
+	<app imagename="your-applications-executable.exe" />
+	<event notloaded="notloaded.png" noconn="noconnection.png" nosignal="nosignal.png" nosignaltimeout="2000" />
+</configuration>
