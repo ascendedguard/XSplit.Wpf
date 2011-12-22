@@ -16,7 +16,7 @@ The following code shows an example of how to use the classes in the .xaml.cs of
 		
 		// Outputs a 1000x200 image every 50ms (20 FPS)
 		plugin = TimedBroadcasterPlugin.CreateInstance(
-			"YOUR-UNIQUE-ID", this.scoreboardView, OutputWidth, OutputHeight 50);
+			"YOUR-UNIQUE-ID", this.scoreboardView, OutputWidth, OutputHeight, 50);
 			
 		if (this.plugin != null)
 		{
